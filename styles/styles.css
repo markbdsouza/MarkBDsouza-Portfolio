@@ -1,0 +1,195 @@
+body {
+  font-family: "PT Serif";
+  font-size: 10px;
+  margin: 0px;
+  padding: 0px;
+  background-color: #222831;
+  color: #eeeeee;
+}
+
+hr {
+  border-color: #66bfbf;
+  width: 15%;
+  border-style: dotted;
+  border-width: 1rem 0px 0px 0px;
+  height: 1.5rem;
+}
+
+.nav-back {
+  background-color: #00adb5;
+  color: #393e46 !important;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: #393e46 !important;
+  font-size: 1rem;
+}
+
+/* Intro */
+#Intro {
+  padding: 0;
+  margin: 0;
+}
+
+.intro-details {
+  margin: 0;
+  padding-top: 1rem;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 5rem;
+  margin: auto 0;
+  background: url("/images//background.jpg") no-repeat fixed;
+  box-shadow: inset 0 0 0 2000px rgba(34, 40, 49, 0.5);
+  background-size: 100% auto;
+}
+
+.intro-moto {
+  font-size: 2rem;
+}
+
+/* About me */
+.details {
+  font-size: 1.5rem;
+}
+
+.details-header {
+  line-height: 2;
+}
+.details-answer {
+  line-height: 1.5;
+}
+
+#projects,
+.contact {
+  background-color: #00adb5;
+  font-size: 2rem;
+}
+
+.display-pic {
+  height: 20rem;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #393e46;
+  border-width: 1rem;
+}
+
+.display-pic:hover {
+  border-color: #00adb5;
+  border-style: solid;
+  border-width: 2rem;
+}
+
+.picture-holder {
+  margin: auto;
+  text-align: center;
+}
+
+.tech-holder {
+  text-align: center;
+  color: #eeeeee;
+
+  font-size: 1.5rem;
+}
+
+.tech-holder i:hover {
+  color: #393e46;
+}
+
+.card-text {
+  color: #393e46;
+  font-size: 1rem;
+}
+
+.card {
+  background-color: #eeeeee;
+}
+
+.card-body {
+  color: black;
+  background-color: #eeeeee;
+}
+
+.card i {
+  width: 100%;
+}
+
+.project-wordings {
+  font-size: 1.6rem;
+  width: 60%;
+  margin: auto;
+}
+
+.dark-hr {
+  border-color: #393e46;
+}
+
+.contact {
+  background-color: #393e46;
+}
+
+.contact-details {
+  color: #393e46;
+}
+
+.contact-ques {
+  font-size: 1.1rem;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  html {
+    font-size: 12px;
+  }
+  .details {
+    text-align: justify;
+  }
+
+  .intro-details {
+    font-size: 3rem;
+    padding: 0;
+  }
+
+  .display-pic {
+    height: 20rem;
+  }
+
+  .display-pic:hover {
+    border-width: 1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 10px;
+  }
+
+  .details {
+    /* font-size: 1rem; */
+    text-align: justify;
+  }
+
+  .intro-details {
+    padding: 0;
+    margin: auto;
+    font-size: 2rem;
+  }
+
+  .details-header {
+    text-align: center;
+  }
+
+  .display-pic {
+    height: 20rem;
+  }
+
+  .display-pic:hover {
+    border-width: 1rem;
+  }
+
+  .details-answer {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 4rem;
+    line-height: 2;
+  }
+}
