@@ -16,9 +16,10 @@ hr {
 }
 
 .nav-back {
-  background-color: #00adb5;
+  background-color: #66bfbf;
   color: #393e46 !important;
   font-size: 1.5rem;
+  border-bottom: #222831 2px solid;
 }
 
 .nav-link {
@@ -34,7 +35,7 @@ hr {
 
 .intro-details {
   margin: 0;
-  padding-top: 1rem;
+  padding-top: 5rem;
   color: #eeeeee;
   text-align: center;
   font-size: 5rem;
@@ -55,6 +56,7 @@ hr {
 
 .details-header {
   line-height: 2;
+  text-align: center;
 }
 .details-answer {
   line-height: 1.5;
@@ -136,6 +138,11 @@ hr {
   font-size: 1.1rem;
 }
 
+:target {
+  padding-top: 40px; /* = to height of navbar */
+  margin-top: -40px;
+}
+
 @media only screen and (min-width: 600px) and (max-width: 900px) {
   html {
     font-size: 12px;
@@ -146,7 +153,6 @@ hr {
 
   .intro-details {
     font-size: 3rem;
-    padding: 0;
   }
 
   .display-pic {
@@ -155,6 +161,11 @@ hr {
 
   .display-pic:hover {
     border-width: 1rem;
+  }
+
+  :target {
+    padding-top: 20px; /* = to height of navbar */
+    margin-top: -20px;
   }
 }
 
@@ -169,7 +180,6 @@ hr {
   }
 
   .intro-details {
-    padding: 0;
     margin: auto;
     font-size: 2rem;
   }
@@ -191,5 +201,14 @@ hr {
     padding-right: 2rem;
     padding-bottom: 4rem;
     line-height: 2;
+  }
+
+  .hide-small {
+    display: none;
+  }
+
+  :target {
+    padding-top: 10px; /* = to height of navbar */
+    margin-top: -10px;
   }
 }

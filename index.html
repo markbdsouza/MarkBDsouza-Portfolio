@@ -4,13 +4,21 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous" />
-    <link rel="stylesheet" href="styles/styles.css">
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
-    <script src="//code.jquery.com/jquery.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <!-- Latest compiled and minified CSS for bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- font awesome -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
 
 
     <title>Mark Dsouza</title>
@@ -18,9 +26,9 @@
 
 <body>
     <section id="navbar">
-        <nav class="navbar navbar-expand-sm nav-back navbar-light ">
+        <nav class="navbar fixed-top navbar-expand-sm nav-back navbar-light">
             <div class="container">
-                <a href="#" class="nav-back navbar-brand ">Mark B D'Souza</a>
+                <a href="#" class=" navbar-brand ">MD</a>
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -33,7 +41,7 @@
                             <a href="#projects" class="nav-link">My Projects</a>
                         </li>
                         <li class="nav-item pl-3">
-                            <a href="#contact" class="nav-link">Contact Me</a>
+                            <a href="#contact" class="nav-link">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -43,30 +51,30 @@
 
     <section id="Intro">
         <div class="">
-            <div class="intro-details">
-                <p>Namaskar,<br> I'm Mark B D'Souza!</p>
+            <div class="intro-details pb-5">
+                <p>Namaste,<br> I'm Mark B D'Souza!</p>
                 <p class="intro-moto">A constantly improving full stack web developer</p>
-                <i class="fas fa-file-code"></i>
+                <div class="hide-small"><i class="fas fa-file-code"></i></div>
             </div>
         </div>
     </section>
-
     <section id="details">
         <div class="mt-5 mb-5 container details">
+            <div class="h2 details-header">About me </div><br>
             <div class="row">
                 <div class="col-md-9">
-                    <h2 class="details-header">About me </h2><br>
                     <div class="details-answer">
                         I am Mark Benjamin D'souza, a Full Stack Developer based out of Bangalore, India!<br>
                         I have been working in a large consulting firm for
-                        over 7 years. I had a long 3 year+ stint writing complex Oracle SQL
+                        over 7 years. I had a long 3 year stint writing complex Oracle SQL
                         queries, helping a client enhance their entire Reporting and Data
                         Warehousing System. I've now moved back to the much more
-                        challenging role of a Full Stack Developer! I talk to my client
-                        on a daily basis to understand their business needs, getting my team offshore to implement the
+                        challenging role of a Full Stack Developer with Java(Spring boot), Angular and SQL Server!
+                        I talk to my client on a daily basis to understand their business needs, getting my team
+                        offshore to implement the
                         same. <br>
                         Additionally, I am a Certified Scrum Master(CSM), and help teams in my organization
-                        transition into agile
+                        transition into agile.
                     </div>
                 </div>
                 <div class="col-md-3 picture-holder pl-4">
@@ -121,10 +129,10 @@
     </section>
 
     <section id="projects">
-        <div class="text-center h2 mt-2 pb-2 pt-5" id="projects">
+        <div class="text-center h2 mt-2 pb-5 pt-5">
             Some of my pet-projects
         </div>
-        <div class="container card-columns mt-3 pt-5">
+        <div class="container card-columns mt-3 pt-2">
             <div class="card">
                 <div class="card-body">
                     <img class="card-img-top img-fluid" src="https://image.flaticon.com/icons/svg/754/754104.svg" alt=""
@@ -206,7 +214,8 @@
     </section>
 
     <section id="contact" class="contact">
-        <div class="text-center h2 pb-2 pt-4 contact-ques">How to get in touch with me ?</div>
+        <div class="text-center pb-2 pt-4 h2">Contact</div>
+        <div class="text-center h2 pb-2 contact-ques">How to get in touch with me ?</div>
         <div class="text-center contact-details">
             <a href="https://www.linkedin.com/in/mark-dsouza-44692095/" class=""><i
                     class="fab fa-linkedin-in pt-2 pb-5 pl-3 pr-3"></i></a>
