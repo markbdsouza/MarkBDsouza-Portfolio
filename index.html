@@ -22,6 +22,17 @@
 
 
     <title>Mark Dsouza</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-55718129-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-55718129-2');
+    </script>
+
 </head>
 
 <body>
@@ -133,31 +144,82 @@
             Some of my pet-projects
         </div>
         <div class="container card-columns mt-3 pt-2">
+            <div class="card p-1">
+                <div class="card-body">
+                    <div class="card-title h4">
+                        <i class="fas fa-file-download fa-2x pb-2"></i>
+                        <a href="https://markbdsouza.github.io/csv-data-generator/" class="" target="_blank">CSV Data
+                            Generator</a>
+                    </div>
+                    <div class="card-text">It is difficult for Projects to easily have meaningful data stored in their
+                        systems. Sometimes data validation is also done on some stored data such as valid zipcodes or
+                        phonenumbers. The CSV Data Generator allows a user to easily generate any number of rows and
+                        configure the type of data that he wants for each column of the CSV file. This CSV file can be
+                        then used as an input into the users required Database.
+                        <br>
+                        <small class="text-muted">Code not available as it was done for a client</small>
+                    </div>
+                </div>
+            </div>
+            <div class="card p-1">
+                <div class="card-body">
+                    <div class="card-title h4">
+                        <i class="fas fa-keyboard fa-2x pb-2"></i>
+                        <a href="https://markbdsouza.github.io/Speed-Typer-Game/" class="" target="_blank">Speed
+                            Typer</a>
+                    </div>
+                    <div class="card-text">This is a fun front-end application built on HTML, CSS and Vanilla
+                        Javascript. I really enjoyed adding 3 overall modes each with 3 difficulty levels, trying to
+                        make it more challenging for the player.
+                        <br>
+                        <small class="text-muted"></small>
+                    </div>
+                </div>
+            </div>
+            <div class="card p-1">
+                <div class="card-body">
+                    <div class="card-title h4">
+                        <i class="fas fa-palette fa-2x pb-2"></i>
+                        <a href="https://markbdsouza.github.io/say-a-color-game/" class="" target="_blank">Say a Color
+                            Game
+                        </a>
+                    </div>
+                    <div class="card-text">A fun enjoyable game using Chrome's Speech Recognition API to get the user to
+                        call out as many colors as he can in 30 seconds! Built using HTML, CSS and Vanilla Javascript.
+                        <br>
+                        <small class="text-muted"></small>
+                    </div>
+                </div>
+            </div>
+
+
+
             <div class="card">
                 <div class="card-body">
                     <img class="card-img-top img-fluid" src="https://image.flaticon.com/icons/svg/754/754104.svg" alt=""
                         style="width:100px;">
-                    <div class="card-title h4"><a href="https://codepen.io/markbdsouza/full/zYxOrqe"> Jupiter Cycles
+                    <div class="card-title h4">
+                        <a href="https://codepen.io/markbdsouza/full/zYxOrqe" target="_blank">
+                            Jupiter Cycles
                         </a>
                     </div>
-                    <p class="card-text">This is a product page for a makeshift cycle store where I got to use navbars,
-                        icons, flexbox, fonts, forms & video embedding. This was created as part of the Free Code Camp
-                        excercies.
+                    <p class="card-text">A product page for a makeshift cycle store using navbars,
+                        icons, flexbox, fonts, forms & video embedding. Created as part of the Free Code Camp excercies.
                         <br>
                         <small class="text-muted">My most popular codepen!!</small>
                     </p>
-
                 </div>
             </div>
             <div class="card p-1">
                 <img class="card-img-top pl-1 pt-1" src="https://image.flaticon.com/icons/svg/1348/1348052.svg"
                     style="width:80px;">
                 <div class="card-body">
-                    <div class="card-title h4"> <a href="https://codepen.io/markbdsouza/full/ZEYzKrb">Mock Boostrap
+                    <div class="card-title h4"> <a href="https://codepen.io/markbdsouza/full/ZEYzKrb"
+                            target="_blank">Mock Boostrap
                             Technical Documentation</a>
                     </div>
-                    <div class="card-text">For this information related project, I had to use the left navbar and some
-                        code tags. This was also created as part of the Free Code Camp excercies.
+                    <div class="card-text">An Information related project, using the left navbar and some
+                        code tags. Created as part of the Free Code Camp excercies.
                     </div>
                 </div>
             </div>
@@ -165,7 +227,8 @@
                 <div class="card-body">
                     <img src="https://image.flaticon.com/icons/svg/391/391518.svg" alt="" class="card-img"
                         style="width:100px;">
-                    <div class="card-title h4"><a href="https://dsouza-weather-app.herokuapp.com/" class=""> Weather
+                    <div class="card-title h4"><a href="https://dsouza-weather-app.herokuapp.com/" class=""
+                            target="_blank"> Weather
                             App</a>
                     </div>
                     <div class="card-text">My node.js app that I created as part of the highly popular Andrew Mead's
@@ -187,27 +250,11 @@
                     </div>
                 </div>
             </div>
-            <div class="card p-1">
-                <div class="card-body">
-                    <div class="card-title h4">
-                        <i class="fas fa-file-download fa-2x pb-2"></i>
-                        <p class="">Test Data Generator</p>
-                    </div>
-                    <div class="card-text">It was an issue for Database related projects to have meaningful data
-                        present for validation. A python based application was designed to create data in the formats of
-                        CSV, XML and JSON and have understandable data(using the Faker package). Additionally the user
-                        could also create sequence generated integers, lists, dictionaries and other data types as data
-                        stored in columns.
-                        <br>
-                        <small class="text-muted">Code not available as it was done for a client</small>
-                    </div>
-                </div>
-            </div>
+
         </div>
         <hr class="dark-hr mt-5">
-        <div class="text-center h2 pt-1 pb-5 project-wordings"> I am unfortunately prohibited from
-            sharing the code of some of my more complex work. I am in progress of making personal projects to enhance
-            my online portofolio.
+        <div class="text-center h2 pt-1 pb-5 project-wordings"> I am in progress of making personal projects to enhance
+            my online portofolio and will keep adding them to the list above!
         </div>
 
 
@@ -217,12 +264,14 @@
         <div class="text-center pb-2 pt-4 h2">Contact</div>
         <div class="text-center h2 pb-2 contact-ques">How to get in touch with me ?</div>
         <div class="text-center contact-details">
-            <a href="https://www.linkedin.com/in/mark-dsouza-44692095/" class=""><i
+            <a href="https://www.linkedin.com/in/mark-dsouza-44692095/" class="" target="_blank"><i
                     class="fab fa-linkedin-in pt-2 pb-5 pl-3 pr-3"></i></a>
-            <a href="https://twitter.com/MarkBDsouza" class=""><i class="fab fa-twitter pt-2 pb-5 pl-3 pr-3"></i></a>
-            <a href="mailto:mark.benjamin.dsouza@gmail.com?Subject=Request" class="" target="_top">
+            <a href="https://twitter.com/MarkBDsouza" class="" target="_blank"><i
+                    class="fab fa-twitter pt-2 pb-5 pl-3 pr-3"></i></a>
+            <a href="mailto:mark.benjamin.dsouza@gmail.com?Subject=Request" class="" target="_blank">
                 <i class="fas fa-envelope pt-2 pb-5 pl-3 pr-3"></i></a>
-
+            <a href="https://github.com/markbdsouza/csv-data-generator" class="" target="_blank">
+                <i class="fab fa-github  pt-2 pb-5 pl-3 pr-3"></i></a>
         </div>
     </section>
 </body>
