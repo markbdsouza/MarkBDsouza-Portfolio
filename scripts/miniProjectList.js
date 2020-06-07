@@ -23,7 +23,7 @@ export const LIST_OF_MINI_PROJECTS = [
   {
     fontAwesomeIcon: `fab fa-youtube`,
     title: `Customer Video Player`,
-    folderName: `Project 3 HTML5 Video API`,
+    folderName: `HTML5 Video API`,
     description: `This was a fun way of exploring the APIs coming in with the video element
     which
     included stop, pause, play & even a nice slider tracking the time which can be moved around as
@@ -50,5 +50,34 @@ export const LIST_OF_MINI_PROJECTS = [
     folderName: `Pokedex`,
     description: `This was a really fun simple project using the https://pokeapi.co/api/v2 API to get information about the first gen Pokemon. The rest is just DOM manipulation and pretty cool styling`,
     credit: `Part of Florin Pop's Youtube series`,
+  },
+  {
+    fontAwesomeIcon: `fas fa-angle-right`,
+    title: `Menu Slider and Modal Pop-up`,
+    folderName: `Menu Slider and Modal`,
+    description: `A simple but very realtime sloution implementing 2 common usecases in a website - a menu that is disaplyed as button & that slides from the left pane. And a Sign up Modal which darkens the background and comes as a popup. This also uses a CSS keyframe for some animation.`,
+    credit: `Part of Brad Traversy's JavaScript Course`,
+  },
+  {
+    fontAwesomeIcon: `fas fa-male`,
+    title: `HangMan (using SVG)`,
+    folderName: `HangMan with SVG`,
+    description: `A simple HangMan game that makes use of SVG to draw the hangman with each wrong letter that is prompted by the user. The user needs to type in the keyboard and those events are read and accordingly actions are done on the screen`,
+    credit: `Part of Brad Traversy's JavaScript Course`,
+  },
+  {
+    fontAwesomeIcon: `fas fa-image`,
+    title: `Gallery with Pop ups`,
+    folderName: `Click Outside Gallery`,
+    description: `Another way to handle popups. The code checks if the parent is the modal using the 'e.target.closest()' method and the keydown event for escape to see if the modal needs to be closed. It also creates thep popup dynamically using the dataset attributes set to the cards in the CSS grid`,
+    credit: `Part of Wes Bos Beginner JS Program`,
+  },
+
+  {
+    fontAwesomeIcon: `fas fa-tags`,
+    title: `A page with tabs`,
+    folderName: `Tabs`,
+    description: `Implementing a simple Tab functionality`,
+    credit: `Part of Wes Bos Beginner JS Program`,
   },
 ];
