@@ -81,4 +81,12 @@ export const LIST_OF_MINI_PROJECTS = [
     description: `Implementing a simple <strong>Tab</strong> functionality on a webpage`,
     credit: `Part of Wes Bos Beginner JS Program`,
   },
+
+  {
+    fontAwesomeIcon: `fas fa-hamburger`,
+    title: `Meal Finder`,
+    folderName: `MeanFinder`,
+    description: `An App to search for recipes using the API from www.themealdb.com which shows a real use case for <strong> Async Await </strong>. Otherwise contains a simple form, a random recipe option and some nice CSS using flexbox`,
+    credit: `Part of Brad Traversy's JavaScript Course`,
+  },
 ];
