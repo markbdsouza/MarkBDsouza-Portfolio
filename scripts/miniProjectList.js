@@ -89,4 +89,11 @@ export const LIST_OF_MINI_PROJECTS = [
     description: `An App to search for recipes using the API from www.themealdb.com which shows a real use case for <strong> Async Await </strong>. Otherwise contains a simple form, a random recipe option and some nice CSS using flexbox`,
     credit: `Part of Brad Traversy's JavaScript Course`,
   },
+  {
+    fontAwesomeIcon: `fas fa-wallet`,
+    title: `Expense Tracker`,
+    folderName: `Expense Tracker`,
+    description: `A useful App to save your expenses. This uses <strong>Local Storage</strong> and basic <strong>Array Methods</strong> to manipulate the DOM according to the number and type of transactions that you have entered`,
+    credit: `Part of Brad Traversy's JavaScript Course`,
+  },
 ];
