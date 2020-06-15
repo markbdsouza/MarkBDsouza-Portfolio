@@ -96,4 +96,18 @@ export const LIST_OF_MINI_PROJECTS = [
     description: `A useful App to save your expenses. This uses <strong>Local Storage</strong> and basic <strong>Array Methods</strong> to manipulate the DOM according to the number and type of transactions that you have entered`,
     credit: `Part of Brad Traversy's JavaScript Course`,
   },
+  {
+    fontAwesomeIcon: `fas fa-music`,
+    title: `MP3 Music Player`,
+    folderName: `Music Player`,
+    description: `Played around with the <strong>Audio Element</strong> over here and implemented play, pause, stop, next & previous for an mp3 player. Also did some nice keyframe animations to make the album art rotate while the music plays`,
+    credit: `Part of Brad Traversy's JavaScript Course`,
+  },
+  {
+    fontAwesomeIcon: `fas fa-envelope-open`,
+    title: `Memory Card Excercise`,
+    folderName: `Memory Cards`,
+    description: `This was an interesting memory app which lets the user store cards with 2 sides and has a nice animation for the flip and navigating between cards`,
+    credit: `Part of Brad Traversy's JavaScript Course`,
+  },
 ];
