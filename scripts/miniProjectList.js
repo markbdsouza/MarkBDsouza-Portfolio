@@ -110,4 +110,11 @@ export const LIST_OF_MINI_PROJECTS = [
     description: `This was an interesting memory app which lets the user store cards with 2 sides and has a nice animation for the flip and navigating between cards`,
     credit: `Part of Brad Traversy's JavaScript Course`,
   },
+  {
+    fontAwesomeIcon: `fas fa-music`,
+    title: `Lyrics Finder`,
+    folderName: `Lyrics Search`,
+    description: `Using the api.lyrics.ovh API, a simple lyric finder was built using <strong>Async Await</strong>. `,
+    credit: `Part of Brad Traversy's JavaScript Course`,
+  },
 ];
