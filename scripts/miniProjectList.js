@@ -117,4 +117,12 @@ export const LIST_OF_MINI_PROJECTS = [
     description: `Using the api.lyrics.ovh API, a simple lyric finder was built using <strong>Async Await</strong>. `,
     credit: `Part of Brad Traversy's JavaScript Course`,
   },
+
+  {
+    fontAwesomeIcon: `fas fa-lungs`,
+    title: `Breathing App`,
+    folderName: `Relaxer App`,
+    description: `A Simple breathing app making use of the <strong>Set Interval</strong> & <strong>Set Timeout</strong> functions along with keyframes to form a sleek UI`,
+    credit: `Part of Brad Traversy's JavaScript Course`,
+  },
 ];
