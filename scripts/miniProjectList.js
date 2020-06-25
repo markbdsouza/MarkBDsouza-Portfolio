@@ -125,4 +125,26 @@ export const LIST_OF_MINI_PROJECTS = [
     description: `A Simple breathing app making use of the <strong>Set Interval</strong> & <strong>Set Timeout</strong> functions along with keyframes to form a sleek UI`,
     credit: `Part of Brad Traversy's JavaScript Course`,
   },
+
+  {
+    fontAwesomeIcon: `fas fa-baseball-ball`,
+    title: `Breakout Game`,
+    folderName: `Breakout Game`,
+    description: `Childhood game recreated. This game gives practice on the canvas element and uses the requestAnimationFrame API to contiously refresh the screen. The remaining is a JS logic handling edge cases depending on the position of the paddle, ball and bricks.`,
+    credit: `Part of Brad Traversy's JavaScript Course`,
+  },
+  {
+    fontAwesomeIcon: `fas fa-clock`,
+    title: `New Year Counter`,
+    folderName: `Project 18 New Year Counter`,
+    description: `A Counter till the end of the year. This uses the Date JS Class to get the current timestamp and the SetInterval API to constantly update the timer`,
+    credit: `Part of Brad Traversy's JavaScript Course`,
+  },
+  // {
+  //   fontAwesomeIcon: `fas fa-down-arrow`,
+  //   title: `Drag & Drop List`,
+  //   folderName: `Sortable List`,
+  //   description: `This is a sortable `,
+  //   credit: `Part of Brad Traversy's JavaScript Course`,
+  // },
 ];
