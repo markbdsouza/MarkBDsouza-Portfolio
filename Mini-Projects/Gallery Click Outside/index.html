@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="./base.css">
+</head>
+
+<body>
+  <div class="cards">
+    <div class="card" data-description="The Earth is our Home">
+      <img src="https://picsum.photos/200?random=1" alt="Wes Bos">
+      <h2>Earth</h2>
+      <button>Learn more →</button>
+    </div>
+    <div class="card" data-description="Fire keeps us warm!">
+      <img src="https://picsum.photos/200?random=2" alt="Wes Bos">
+      <h2>Fire</h2>
+      <button>Learn more →</button>
+    </div>
+    <div class="card" data-description="The Wind brings calmness">
+      <img src="https://picsum.photos/200?random=3" alt="Wes Bos">
+      <h2>Wind</h2>
+      <button>Learn more →</button>
+    </div>
+    <div class="card" data-description="Water quenches our thirst">
+      <img src="https://picsum.photos/200?random=4" alt="Wes Bos">
+      <h2>Water</h2>
+      <button>Learn more →</button>
+    </div>
+
+  </div>
+
+  <div class="modal-outer">
+    <div class="modal-inner">
+      <p></p>
+    </div>
+  </div>
+
+  <style>
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 20px;
+      padding: 2rem;
+    }
+
+    .card img {
+      width: 100%;
+    }
+
+    .card {
+      background: white;
+      padding: 1rem;
+      border-radius: 2px;
+      color: black;
+    }
+
+    .card h2 {
+      color: black;
+    }
+
+    .modal-outer {
+      display: grid;
+      background: rgba(0, 0, 0, 0.5);
+      position: fixed;
+      height: 100vh;
+      width: 100vw;
+      top: 0;
+      left: 0;
+      justify-content: center;
+      align-items: center;
+
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s;
+    }
+
+
+    .modal-inner {
+      max-width: 600px;
+      min-width: 400px;
+      min-height: 300px;
+      padding: 2rem;
+      border-radius: 5px;
+      background: white;
+      align-items: center;
+      text-align: auto;
+      transform: translateY(-200%);
+      transition: transform 5s;
+    }
+
+    .modal-outer.open {
+      opacity: 1;
+      pointer-events: all;
+    }
+
+    .modal-outer img {
+      width: 100%;
+    }
+
+    .modal-outer.open .modal-inner {
+      transform: translateY(0%);
+    }
+  </style>
+  <script src="./click-outside.js"></script>
+</body>
+
+</html>

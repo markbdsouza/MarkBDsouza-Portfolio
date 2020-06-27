@@ -103,6 +103,14 @@ export const LIST_OF_MINI_PROJECTS = [
     description: `Played around with the <strong>Audio Element</strong> over here and implemented play, pause, stop, next & previous for an mp3 player. Also did some nice keyframe animations to make the album art rotate while the music plays`,
     credit: `Part of Brad Traversy's JavaScript Course`,
   },
+
+  {
+    fontAwesomeIcon: `far fa-images`,
+    title: `Gallery with Click outside to close`,
+    folderName: `Gallery Click Outside`,
+    description: `A small gallery that uses <strong>modals</strong> and the closest function to achieve the goal of closing a pop-up by clicking outside the pop-up or by hitting escape`,
+    credit: `Part of Wes Bos Beginner JS Program`,
+  },
   {
     fontAwesomeIcon: `fas fa-envelope-open`,
     title: `Memory Card Excercise`,
@@ -130,21 +138,28 @@ export const LIST_OF_MINI_PROJECTS = [
     fontAwesomeIcon: `fas fa-baseball-ball`,
     title: `Breakout Game`,
     folderName: `Breakout Game`,
-    description: `Childhood game recreated. This game gives practice on the canvas element and uses the requestAnimationFrame API to contiously refresh the screen. The remaining is a JS logic handling edge cases depending on the position of the paddle, ball and bricks.`,
+    description: `Childhood game recreated. This game gives practice on the <strong>Canvas element</strong> and uses the <strong>requestAnimationFrame API</strong> to contiously refresh the screen. The remaining is a JS logic handling edge cases depending on the position of the paddle, ball and bricks.`,
     credit: `Part of Brad Traversy's JavaScript Course`,
   },
   {
     fontAwesomeIcon: `fas fa-clock`,
     title: `New Year Counter`,
-    folderName: `Project 18 New Year Counter`,
-    description: `A Counter till the end of the year. This uses the Date JS Class to get the current timestamp and the SetInterval API to constantly update the timer`,
+    folderName: `New Year Counter`,
+    description: `A Counter till the end of the year. This uses the <strong>Date JS Class</strong> to get the current timestamp and the SetInterval API to constantly update the timer`,
     credit: `Part of Brad Traversy's JavaScript Course`,
   },
-  // {
-  //   fontAwesomeIcon: `fas fa-down-arrow`,
-  //   title: `Drag & Drop List`,
-  //   folderName: `Sortable List`,
-  //   description: `This is a sortable `,
-  //   credit: `Part of Brad Traversy's JavaScript Course`,
-  // },
+  {
+    fontAwesomeIcon: `fas fa-sort-alpha-down`,
+    title: `Drag & Drop List`,
+    folderName: `Sortable List`,
+    description: `Uses the <strong>Drag and Drop API</strong> to implement a list that is sortable by the user`,
+    credit: `Part of Brad Traversy's JavaScript Course`,
+  },
+  {
+    fontAwesomeIcon: `fas fa-comment`,
+    title: `Speech Number Guessing Game`,
+    folderName: `Speech Number Guessing Game`,
+    description: `Uses the <strong>Experiemental Speech Recognition API</strong> to make the user speak out a world and manipulate the DOM based on the voice input. As this is an experiemental feature, it is suggested to use Chrome for this project`,
+    credit: `Part of Brad Traversy's JavaScript Course`,
+  },
 ];
