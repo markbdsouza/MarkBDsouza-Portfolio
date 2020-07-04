@@ -111,6 +111,8 @@ hr {
 
 .card {
   background-color: #eeeeee;
+  border: 4px #393e46 solid;
+  padding: 0 !important;
 }
 
 .card-body {
@@ -120,6 +122,21 @@ hr {
 
 .card-body.highlight {
   background-color: #66bfbf;
+}
+
+.card.highlight-dark {
+  border: 4px white solid;
+}
+
+.card.highlight-dark .card-body {
+  background-color: #393e46;
+  color: white;
+}
+.card.highlight-dark .card-body .card-text {
+  color: white;
+}
+.card-title {
+  color: #66bfbf;
 }
 
 .card i {
