@@ -149,6 +149,14 @@ export const LIST_OF_MINI_PROJECTS = [
     credit: `Part of Brad Traversy's JavaScript Course`,
   },
   {
+    fontAwesomeIcon: `far fa-keyboard`,
+    title: `Async Typer`,
+    folderName: `Async Typer`,
+    description: `A simple typer that types 1 character at a time showcasing the use of the setTimeout method with async await, setting a different delay for each output`,
+    credit: `Part of Wes Bos Beginner JS Program`,
+  },
+
+  {
     fontAwesomeIcon: `fas fa-sort-alpha-down`,
     title: `Drag & Drop List`,
     folderName: `Sortable List`,
