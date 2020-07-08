@@ -162,4 +162,11 @@ export const LIST_OF_MINI_PROJECTS = [
     description: `Uses the <strong>Experiemental Speech Recognition API</strong> to make the user speak out a world and manipulate the DOM based on the voice input. As this is an experiemental feature, it is suggested to use Chrome for this project`,
     credit: `Part of Brad Traversy's JavaScript Course`,
   },
+  {
+    fontAwesomeIcon: `fas fa-smile-wink`,
+    title: `Dad Joke generator`,
+    folderName: `Dad Jokes`,
+    description: `This uses the API exposed by https://icanhazdadjoke.com to create a dad joke generator with the header option for the fetch call`,
+    credit: `Part of Wes Bos Beginner JS Program`,
+  },
 ];
