@@ -177,4 +177,11 @@ export const LIST_OF_MINI_PROJECTS = [
     description: `This uses the API exposed by https://icanhazdadjoke.com to create a dad joke generator with the header option for the fetch call`,
     credit: `Part of Wes Bos Beginner JS Program`,
   },
+  {
+    fontAwesomeIcon: `fas fa-puzzle-piece`,
+    title: `Simon Clicks`,
+    folderName: `simon says game`,
+    description: `A game based on the classic Simon says game instead here simon clicks. This was built using jQuery and deals with just handling DOM events and related JS manipulations`,
+    credit: `Part of Angela Yu WebDev Bootcamp program`,
+  },
 ];
