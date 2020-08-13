@@ -5,7 +5,6 @@ const progress = document.getElementById('progress');
 const timeStamp = document.getElementById('timeStamp');
 
 function toggleVideoPlaying(e) {
-  console.log(video.duration);
   if (video.paused) {
     video.play();
   } else {
@@ -37,7 +36,6 @@ function stopVideo(e) {
 function setVideoProgress(e) {
   const setTime = (progress.value / 100) * video.duration;
   video.currentTime = setTime;
-  console.log(setTime);
 }
 
 video.addEventListener('click', toggleVideoPlaying);

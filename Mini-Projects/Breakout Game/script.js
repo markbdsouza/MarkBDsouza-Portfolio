@@ -126,7 +126,6 @@ function moveBall() {
     ball.dy = -1 * ball.speed;
   }
 
-  //   console.log(bricks);
   //brick connect
   bricks.forEach((col) => {
     col.forEach((brick) => {

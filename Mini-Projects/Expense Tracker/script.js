@@ -69,11 +69,8 @@ function getTransactionDetails(e) {
   e.preventDefault();
   if (text.value && amount.value) {
     if (text.dataset && text.dataset.id) {
-      console.log(text.dataset.id);
-      console.log(transactions);
       transactions.forEach((item) => {
         if (item.id === +text.dataset.id) {
-          console.log('INNN');
           item.amount = +amount.value;
           item.text = text.value;
         }

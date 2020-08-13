@@ -64,7 +64,6 @@ function swapItems(fromIndex, toIndex) {
 function checkOrder() {
   listItems.forEach((listItem, index) => {
     const personName = listItem.querySelector('.draggable').innerText.trim();
-    console.log('IN');
     if (personName !== originalArray[index]) {
       listItem.classList.add('wrong');
     } else {

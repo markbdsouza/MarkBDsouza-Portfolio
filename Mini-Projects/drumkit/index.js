@@ -1,5 +1,4 @@
 const buttonsEl = document.querySelectorAll('.drum');
-// let audio;
 
 let SOUND_MAPPING = {
   W: './sounds/crash.mp3',

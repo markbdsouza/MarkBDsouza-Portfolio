@@ -20,7 +20,6 @@ ctx.lineTo(x, y);
 ctx.stroke();
 
 function draw(options) {
-  console.log(options.key);
   hue += 5;
   ctx.beginPath();
   ctx.moveTo(x, y);
@@ -43,8 +42,6 @@ function draw(options) {
   ctx.lineTo(x, y);
   ctx.strokeStyle = `hsl(${hue}, 100%, 50%)`;
   ctx.stroke();
-
-  console.log(x, y);
 }
 
 function handleKey(e) {

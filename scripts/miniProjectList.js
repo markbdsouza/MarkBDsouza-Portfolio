@@ -184,4 +184,11 @@ export const LIST_OF_MINI_PROJECTS = [
     description: `A game based on the classic Simon says game instead here simon clicks. This was built using jQuery and deals with just handling DOM events and related JS manipulations`,
     credit: `Part of Angela Yu WebDev Bootcamp program`,
   },
+  {
+    fontAwesomeIcon: `fas fa-drum`,
+    title: `Drum Kit`,
+    folderName: `drumkit`,
+    description: `A music app based on DOM Click and key board events using audio HTML Elements to mimic a drum kit built using vanilla Javascript`,
+    credit: `Part of Angela Yu WebDev Bootcamp program`,
+  },
 ];

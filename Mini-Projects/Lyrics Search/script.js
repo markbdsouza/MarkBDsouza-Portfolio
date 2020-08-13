@@ -18,7 +18,6 @@ async function searchSongs(searchTerm) {
 }
 
 function showData(data) {
-  console.log(data);
   //   let output = '';
   //   data.data.forEach((song) => {
   //     output += ` <li> <span><strong>${song.artist.name}</strong> - ${song.title}</span>
