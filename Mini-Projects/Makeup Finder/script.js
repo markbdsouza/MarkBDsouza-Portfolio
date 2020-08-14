@@ -9,35 +9,32 @@ async function getData() {
     'http://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline'
   );
   DATA = await fetchData.json();
-  console.log(DATA);
-
+  // console.log(DATA);
   updateDetails(DATA, (isInitLoad = true));
 }
 
 function updateDetails(jsonEl, isInitLoad = false) {
-  //   detailsElement.innerHTML = JSON.stringify(jsonEl);
   let displayDataHTML = '';
   detailsElement.innerHTML = '';
-
   jsonEl.forEach((item) => {
     if (isInitLoad) {
       categorySet.add(item.category);
     }
-
     displayDataHTML += `<div class="card">
     <div class="card__img"><img
             src="${item.image_link}"
             alt="">
     </div>
     <div class="card__header">
-        <span class="card__name">${item.name}</span>
+        <span class="card__name">${item.name}</span> <br>
         <span class="card__company"> by ${item.brand}</span>
     </div>
     <div class="card__details">
-        <div class="card__price">${item.price}${item.price_sign}</div>
+        <div class="card__price">${item.price} $</div>
     </div>
-    ${item.category}
-</div>`;
+    ${
+      item.product_colors.length > 0 ? createColorHTML(item.product_colors) : ''
+    } </div>`;
   });
   detailsElement.innerHTML = displayDataHTML;
 
@@ -46,18 +43,34 @@ function updateDetails(jsonEl, isInitLoad = false) {
   }
 }
 
+function createColorHTML(productColors) {
+  let HTML = `<div class="card__colors"><div class="card__color-container">`;
+  productColors.forEach((item) => {
+    HTML += `<div class="card__color" style="background-color:${item.hex_value};"></div>`;
+  });
+  HTML += `</div></div>`;
+  return HTML;
+}
+
 function filterByCategory(e) {
-  categoryBtnList.forEach((btn) => {
-    btn.classList.remove('active');
-  });
-  e.currentTarget.classList.add('active');
-  let filteredData = [...DATA].filter((a) => {
-    if (e.currentTarget.dataset.value === 'all') {
-      return true;
-    } else if (e.currentTarget.dataset.value === 'null') {
-      return a.category === null;
-    } else return a.category === e.currentTarget.dataset.value;
-  });
+  let filteredData;
+  if (e.currentTarget.classList.contains('active')) {
+    e.currentTarget.classList.remove('active');
+    document.querySelector("[data-value='all']").classList.add('active');
+    filteredData = DATA;
+  } else {
+    categoryBtnList.forEach((btn) => {
+      btn.classList.remove('active');
+    });
+    e.currentTarget.classList.add('active');
+    filteredData = [...DATA].filter((a) => {
+      if (e.currentTarget.dataset.value === 'all') {
+        return true;
+      } else if (e.currentTarget.dataset.value === 'null') {
+        return a.category === null;
+      } else return a.category === e.currentTarget.dataset.value;
+    });
+  }
   updateDetails(filteredData);
 }
 
@@ -74,5 +87,4 @@ function updateCategories(setOfCategories) {
     btn.addEventListener('click', filterByCategory);
   });
 }
-
 getData();

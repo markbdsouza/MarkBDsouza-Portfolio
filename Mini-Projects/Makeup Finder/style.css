@@ -3,15 +3,20 @@
 * {
   box-sizing: border-box;
   font-family: 'Roboto Condensed', sans-serif;
+  color: white;
 }
 body {
-  background: linear-gradient(to right, #501b1d, #64485c);
+  background: linear-gradient(to right, #64485c, #64486d);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
+.h1 {
+  font-size: 2rem;
+  margin: 1rem;
+}
 .details {
   display: flex;
   flex-wrap: wrap;
@@ -20,10 +25,10 @@ body {
 }
 
 .card {
-  background: linear-gradient(to right, #d4d3dd, #efefbb);
-  /* color: #eee; */
+  background: linear-gradient(to bottom, #d4d3dd, #eee);
+  color: #501b1d;
   border-radius: 5px;
-  border: 3px solid rgba(255, 255, 255, 0.5);
+  border: 3px solid rgba(255, 255, 255, 0.7);
   max-width: 200px;
   margin: 1rem;
   display: flex;
@@ -35,6 +40,9 @@ body {
   padding: 85px 20px 10px 20px;
   margin-top: 75px;
   min-height: 250px;
+}
+.card * {
+  color: #501b1d;
 }
 .card__img {
   /* border-radius: 50%; */
@@ -50,7 +58,17 @@ body {
   border-radius: 10px;
   border: 2px solid rgba(0, 0, 0, 0.3);
 }
+.card__name {
+  font-size: 1.3rem;
+}
 
+.category {
+  margin-bottom: 1.5rem;
+}
+
+.category__header {
+  padding: 0.5rem 1rem 0;
+}
 .category__item {
   border-radius: 10px;
   padding: 0.5rem 1.5rem;
@@ -67,4 +85,23 @@ body {
   background-color: #501b1d;
   color: #adadad;
   transform: scale(1.1);
+}
+
+.card__colors {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__color {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  background-color: aqua;
+  margin: 3px;
+}
+.card__color-container {
+  display: flex;
+  flex-wrap: wrap;
 }
