@@ -191,4 +191,10 @@ export const LIST_OF_MINI_PROJECTS = [
     description: `A music app based on DOM Click and key board events using audio HTML Elements to mimic a drum kit built using vanilla Javascript`,
     credit: `Part of Angela Yu WebDev Bootcamp program`,
   },
+  {
+    fontAwesomeIcon: `fas fa-female`,
+    title: `Make up Finder`,
+    folderName: `Makeup Finder`,
+    description: `An app that displays Maybelline products using the makeup-api.herokuapp.com API using JS. Simple extraction of data from the API and some JS array filter implementation`,
+  },
 ];

@@ -9,7 +9,6 @@ async function getData() {
     'http://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline'
   );
   DATA = await fetchData.json();
-  // console.log(DATA);
   updateDetails(DATA, (isInitLoad = true));
 }
 
