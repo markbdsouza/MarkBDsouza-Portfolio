@@ -196,5 +196,6 @@ export const LIST_OF_MINI_PROJECTS = [
     title: `Make up Finder`,
     folderName: `Makeup Finder`,
     description: `An app that displays Maybelline products using the makeup-api.herokuapp.com API using JS. Simple extraction of data from the API and some JS array filter implementation`,
+    credit: ``,
   },
 ];
