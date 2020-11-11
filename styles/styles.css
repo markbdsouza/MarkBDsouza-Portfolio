@@ -170,6 +170,13 @@ hr {
   margin-top: -40px;
 }
 
+a.unlink {
+  color: inherit;
+}
+a.unlink:hover {
+  color: inherit;
+}
+
 @media only screen and (min-width: 600px) and (max-width: 900px) {
   html {
     font-size: 12px;
