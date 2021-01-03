@@ -216,6 +216,7 @@ a.unlink:hover {
 
   .display-pic {
     height: 100%;
+    width: 80%;
   }
 
   .display-pic:hover {
@@ -248,7 +249,7 @@ a.unlink:hover {
   }
 
   .display-pic {
-    height: 20rem;
+    width: 70%;
   }
 
   .display-pic:hover {
