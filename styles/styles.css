@@ -62,6 +62,26 @@ hr {
   line-height: 1.5;
 }
 
+#technology {
+  color: #222831;
+  background-color: #eeeeee;
+}
+
+.tech-holder {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.tech-holder i:hover {
+  color: #393e46;
+}
+
+.certification-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #projects,
 .contact,
 .teachers {
@@ -70,7 +90,7 @@ hr {
 }
 
 .display-pic {
-  height: 20rem;
+  width: 100%;
   border-radius: 50%;
   border-style: solid;
   border-color: #393e46;
@@ -93,15 +113,20 @@ hr {
   text-align: center;
 }
 
-.tech-holder {
-  text-align: center;
-  color: #eeeeee;
-
-  font-size: 1.5rem;
+.certification-badge {
+  height: 10rem;
 }
 
-.tech-holder i:hover {
-  color: #393e46;
+.logo-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+}
+
+.logo-small {
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .card-text {
@@ -190,7 +215,7 @@ a.unlink:hover {
   }
 
   .display-pic {
-    height: 20rem;
+    height: 100%;
   }
 
   .display-pic:hover {
